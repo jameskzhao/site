@@ -116,7 +116,7 @@ h6 {
         color: $black;
         opacity: 0.8;
     }
-    .mh-home .mh-header-info .social-icon li .fa:hover {
+    .mh-home .mh-header-info .social-icon li .fab:hover {
         background-color: $black;
     }
     h1,
@@ -252,7 +252,7 @@ h6 {
     .img-color-overlay {
         background-color: rgba($black, 0.9);
     }
-    .mh-home .mh-header-info .social-icon li .fa:hover {
+    .mh-home .mh-header-info .social-icon li .fab:hover {
         background-color: $white;
     }
     .page-item {
@@ -656,7 +656,7 @@ body {
         .social-icon {
             margin-top: 0;
             li {
-                .fa {
+                .fab {
                     font-size: 18px;
                     line-height: 30px;
                     padding: 4px 14px;
@@ -665,6 +665,7 @@ body {
                     border-radius: 3px;
                     &:hover {
                         @include transition(.3s);
+                        color: $white;
                     }
                 }
                 a {
