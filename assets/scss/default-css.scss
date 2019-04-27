@@ -4,6 +4,8 @@
  * -------------------
  */
 
+@import 'variable';
+@import 'functions';
 html {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -630,7 +632,6 @@ ul {
 }
 
 .home-2-img {
-    height: 100vh;
     background-image: url(../images/home-bg-img.jpg);
 }
 
