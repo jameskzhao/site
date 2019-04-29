@@ -344,12 +344,19 @@
 
     function submitForm() {
         var name = $("#name").val();
+        var last_name = $("#L_name").val();
         var email = $("#email").val();
         var message = $("#message").val();
+        var postData = {
+            'first_name': name,
+            'last_name': last_name,
+            'emailAddress': email,
+            'message': message,
+        };
         $.ajax({
             type: "POST",
-            url: "process.php",
-            data: "name=" + name + "&email=" + email + "&message=" + message,
+            url: "https://james.prod.with-datafire.io/contact",
+            data: postData,
             success: function(text) {
                 if (text == "success") {
                     formSuccess();
@@ -363,7 +370,7 @@
 
     function formSuccess() {
         $("#contactForm")[0].reset();
-        submitMSG(true, "Message Sent!")
+        submitMSG(true, "Message Sent!");
     }
 
     function formError() {
@@ -373,10 +380,11 @@
     }
 
     function submitMSG(valid, msg) {
+        var msgClasses = '';
         if (valid) {
-            var msgClasses = "h3 text-center fadeInUp animated text-success";
+            msgClasses = "h3 text-center fadeInUp animated text-success";
         } else {
-            var msgClasses = "h3 text-center shake animated text-danger";
+            msgClasses = "h3 text-center shake animated text-danger";
         }
         $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
