@@ -1,6 +1,6 @@
  google.maps.event.addDomListener(window, 'load', init);
- var userLat = 49.177448;
- var userLng = -123.115449;
+ var userLat = 49.274956;
+ var userLng = -123.010095;
 
  function init() {
      var mapOptions = {
