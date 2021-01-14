@@ -32,7 +32,13 @@
         });
         $('.current_year').text(new Date().getFullYear());
         var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 2,
+            // Disable preloading of all images
+            preloadImages: false,
+            // Enable lazy loading
+            lazy: true,
+            loop: true,
+            loopedSlides: 3,
+            slidesPerView: 'auto',
             spaceBetween: 30,
             pagination: {
                 el: '.swiper-pagination',
