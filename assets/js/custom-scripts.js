@@ -39,6 +39,7 @@
             loop: true,
             loopedSlides: 3,
             slidesPerView: 'auto',
+            centeredSlides: true,
             spaceBetween: 30,
             pagination: {
                 el: '.swiper-pagination',
