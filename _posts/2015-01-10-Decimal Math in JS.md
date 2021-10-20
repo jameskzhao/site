@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Decimal Math in JS
+tags: JavaScript
 ---
 
 One of the big headaches of JS particularly for new learners, is the fact that it doesn't do decimal math as expected.

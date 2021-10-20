@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Understanding 'undefined' in JavaScript
+tags: JavaScript
 ---
 
 undefined is not the same as a 'not defined error'
