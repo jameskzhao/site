@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Primitive Types in JavaScript
+title: How to sort an array in JS
 tags: JavaScript Array Sorting
 ---
 
