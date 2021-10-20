@@ -13,6 +13,7 @@ let b = 0.2;
 console.log(a+b);
 // you will get 0.30000000000000004
 ```
+
 In another real world example, let's suppose you have a product with price $20.30, a customer with $40.60 wants to place an order with 2 of the products.
 
 ```js
