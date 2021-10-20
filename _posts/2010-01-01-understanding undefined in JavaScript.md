@@ -1,3 +1,8 @@
+---
+layout: post
+title: Understanding 'undefined' in JavaScript
+---
+
 undefined is not the same as a 'not defined error'
  - The 'not defined' error occurs when a variable is not declared at all
  - undefined is a special value when a variable is declared but there is no value assigned. undefined is not a string
