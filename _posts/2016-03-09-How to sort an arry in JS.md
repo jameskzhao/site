@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to sort an array in JS
-tags: JavaScript Array Sorting
+tags: [JavaScript, Array]
 ---
 
 By default, JavaScript sorts an array by dictionary order(numbers first, followed by letters in alphabetical order)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using console.time to measure JS performance
-tags: JavaScript
+tags: [JavaScript, Performance]
 ---
 
 Let's face it: Every developer has to deal with performance issues. How to measure performance in the first place?

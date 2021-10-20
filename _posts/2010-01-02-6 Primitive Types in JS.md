@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Primitive Types in JavaScript
-tags: JavaScript
+tags: [JavaScript, Primitive]
 ---
 
 Primitive type is a type of data that represents a single value. In other words, it is not a object.
