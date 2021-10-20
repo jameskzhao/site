@@ -13,4 +13,5 @@ if(a===undefined){
 ```
 
 ### Never set a value to undefined
+
 It will be impossible to tell if your variable was never set a value, or you set a value initially and then decided to set it as undefined.
