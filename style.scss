@@ -29,6 +29,13 @@ small{
 }
 .codinfox-tag-mark{
   font-size: smaller;
+  font-weight: 500;
+  background: rgba(106,159,181,0.15);
+  margin: 0.2em 0.3em;
+  padding: 0 0.5em;
+  display: inline-block;
+  border-radius: 4px;
+  transition: all 0.1s ease-in-out;
 }
 .codinfox-tag-mark::before{
   content:'#';
