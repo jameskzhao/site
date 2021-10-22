@@ -22,27 +22,7 @@ body {
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
-small{
-  font-size: smaller;
-  color: darkgray;
-  font-weight: 400;
-}
-.codinfox-tag-mark{
-  font-size: smaller;
-  font-weight: 500;
-  background: rgba(106,159,181,0.15);
-  margin: 0.2em 0.3em;
-  padding: 0 0.5em;
-  display: inline-block;
-  border-radius: 4px;
-  transition: all 0.1s ease-in-out;
-}
-.codinfox-tag-mark::before{
-  content:'#';
-}
-.codinfox-tag-mark::after{
-  content:' ';
-}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -52,7 +32,7 @@ small{
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkGray;
+  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -172,13 +152,11 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
-  background-color: #4bd7c2;
-  color: #fff;
 }
 
 .masthead {
   padding: 20px 0;
-  /*border-bottom: 1px solid $lightGray;*/
+  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -214,7 +192,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $white;
+  color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -224,7 +202,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $white;
+  color: $gray;
   font-size: 16px;
 
   @include mobile {
@@ -247,7 +225,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $white;
+    color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -305,6 +283,24 @@ footer {
   text-align: center;
 }
 
+small{
+  font-size: smaller;
+  color: darkgray;
+  font-weight: 400;
+}
+.codinfox-tag-mark{
+  font-size: smaller;
+  font-weight: 500;
+  background: rgba(106,159,181,0.15);
+  margin: 0.2em 0.3em;
+  padding: 0 0.5em;
+  display: inline-block;
+  border-radius: 4px;
+  transition: all 0.1s ease-in-out;
+}
+.codinfox-tag-mark::before{
+  content:'#';
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
