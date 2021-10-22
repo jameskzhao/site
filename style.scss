@@ -302,6 +302,12 @@ small{
 .codinfox-category-list li{
   transition: all 0.1s ease-in-out;
 }
+.post a{
+  transition: all 0.1s ease-in-out;
+}
+.post a:hover{
+  padding: 0 .5rem;
+}
 .codinfox-category-list li:hover{
   list-style-type: disc;
   padding: 0 .5rem;
