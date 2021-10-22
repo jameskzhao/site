@@ -252,7 +252,9 @@ nav {
   padding-bottom: 1em;
   border-bottom: none;
 }
-
+.posts > div {
+  font-size: smaller;
+}
 .post {
   blockquote {
     margin: 1.8em .8em;
