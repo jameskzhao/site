@@ -305,6 +305,9 @@ small{
 .post a{
   transition: all 0.1s ease-in-out;
 }
+.post .post-title{
+  color:#6a9fb5;
+}
 .post a:hover{
   padding: 0 .5rem;
 }
