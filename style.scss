@@ -27,6 +27,9 @@ small{
   color: darkgray;
   font-weight: 400;
 }
+.codinfox-tag-mark{
+  font-size: smaller;
+}
 .codinfox-tag-mark::before{
   content:'#';
 }
