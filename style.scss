@@ -28,10 +28,10 @@ small{
   font-weight: 400;
 }
 .codinfox-tag-mark::before{
-  content:' [';
+  content:'#';
 }
 .codinfox-tag-mark::after{
-  content:'] ';
+  content:' ';
 }
 .container {
   margin: 0 auto;
