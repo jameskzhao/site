@@ -288,15 +288,23 @@ small{
   color: darkgray;
   font-weight: 400;
 }
-.codinfox-tag-mark{
+.codinfox-category-list .codinfox-tag-mark{
   font-size: smaller;
   font-weight: 500;
+}
+.codinfox-tag-mark{
+  font-weight: 600;
   background: rgba(106,159,181,0.15);
   margin: 0.2em 0.3em;
   padding: 0 0.5em;
   display: inline-block;
   border-radius: 4px;
   transition: all 0.1s ease-in-out;
+}
+.codinfox-tag-mark:hover{
+  text-decoration: none;
+  background: #6a9fb5;
+  color: #fff;
 }
 .codinfox-tag-mark::before{
   content:'#';
