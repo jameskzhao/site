@@ -27,6 +27,12 @@ small{
   color: darkgray;
   font-weight: 400;
 }
+.codinfox-tag-mark::before{
+  content:' [';
+}
+.codinfox-tag-mark::after{
+  content:'] ';
+}
 .container {
   margin: 0 auto;
   max-width: 740px;
