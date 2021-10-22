@@ -8,10 +8,12 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-
-  {% for tag in page.tags %}
+  <div class="small">
+    {% for tag in page.tags %}
       <a class="codinfox-tag-mark" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
-  {% endfor %}
+    {% endfor %}
+  </div>
+  
 
   <div class="entry">
     {{ content }}
