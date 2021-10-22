@@ -288,9 +288,14 @@ small{
   color: darkgray;
   font-weight: 400;
 }
+.wrapper-masthead,
 .masthead{
   background-color: #4bd7c2;
   color: #fff;
+}
+.masthead a{
+  color: #fff;
+  text-decoration: none;
 }
 .codinfox-category-list .codinfox-tag-mark{
   font-size: smaller;
