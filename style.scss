@@ -298,7 +298,9 @@ small{
   font-size: smaller;
   font-weight: 500;
 }
-
+.codinfox-category-list li{
+  transition: all 0.1s ease-in-out;
+}
 .codinfox-category-list li:hover{
   list-style-type: disc;
   padding: 0 .5rem;
