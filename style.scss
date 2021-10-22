@@ -1,4 +1,7 @@
---- --- //
+---
+---
+
+//
 // IMPORTS
 //
 
@@ -15,42 +18,31 @@ html {
 }
 
 body {
-  background: $white;
+	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
-
-small {
+small{
   font-size: smaller;
   color: darkgray;
   font-weight: 400;
 }
-
-.codinfox-tag-mark {
+.codinfox-tag-mark{
   font-size: smaller;
   font-weight: 500;
-  background: rgba(106, 159, 181, 0.15);
+  background: rgba(106,159,181,0.15);
   margin: 0.2em 0.3em;
   padding: 0 0.5em;
   display: inline-block;
   border-radius: 4px;
   transition: all 0.1s ease-in-out;
 }
-
-.post-tag:hover {
-  text-decoration: none;
-  background: #6a9fb5;
-  color: #fff;
+.codinfox-tag-mark::before{
+  content:'#';
 }
-
-.codinfox-tag-mark::before {
-  content: '#';
+.codinfox-tag-mark::after{
+  content:' ';
 }
-
-.codinfox-tag-mark::after {
-  content: ' ';
-}
-
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -58,12 +50,7 @@ small {
   width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkGray;
   font-weight: bold;
@@ -79,7 +66,6 @@ h6 {
 
 h1 {
   font-size: 30px;
-
   a {
     color: inherit;
   }
@@ -105,16 +91,13 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-  cursor: pointer;
-
-  &:hover,
-  &:active {
+	cursor: pointer;
+  &:hover, &:active {
     color: $blue;
   }
 }
 
-ul,
-ol {
+ul, ol {
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -127,25 +110,19 @@ ol {
   list-style-type: decimal;
 }
 
-ol ul,
-ul ol,
-ul ul,
-ol ol {
+ol ul, ul ol, ul ul, ol ol {
   margin: 0;
 }
 
-ul ul,
-ol ul {
+ul ul, ol ul {
   list-style-type: circle;
 }
 
-em,
-i {
+em, i {
   font-style: italic;
 }
 
-strong,
-b {
+strong, b {
   font-weight: bold;
 }
 
@@ -168,7 +145,6 @@ img {
   color: $black;
   background: $lightGray;
 }
-
 ::selection {
   color: $black;
   background: $lightGray;
@@ -178,12 +154,12 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-  content: " ";
-  display: table;
+    content: " ";
+    display: table;
 }
 
 .clearfix:after {
-  clear: both;
+    clear: both;
 }
 
 /*********************/
@@ -287,12 +263,12 @@ nav {
 // .main
 //
 
-.posts>.post {
+.posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
 
-.posts>.post:last-child {
+.posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
 }
