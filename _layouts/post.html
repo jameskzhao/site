@@ -9,7 +9,7 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
-  {% for tag in post.tags %}
+  {% for tag in page.tags %}
       <a class="codinfox-tag-mark" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
   {% endfor %}
 
