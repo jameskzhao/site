@@ -298,6 +298,11 @@ small{
   font-size: smaller;
   font-weight: 500;
 }
+
+.codinfox-category-list li:hover{
+  list-style-type: disc;
+  padding: 0 .5rem;
+}
 .codinfox-tag-mark{
   font-weight: 600;
   background: rgba(106,159,181,0.15);
