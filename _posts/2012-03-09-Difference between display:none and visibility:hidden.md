@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding 'undefined' in JavaScript
+title: Difference between visibility:hidden and display:none
 tags: [HTML, CSS]
 ---
 
